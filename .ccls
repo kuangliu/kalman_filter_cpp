@@ -1,0 +1,10 @@
+clang
+-std=c++17
+-stdlib=libc++
+-isystem/usr/local/include
+-isystem/Library/Developer/CommandLineTools/usr/include/c++/v1
+-isystem/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
+-isystem/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+-isystem/Library/Developer/CommandLineTools/usr/include
+-I/usr/local/Cellar/opencv@3/3.4.12_3/include
+-I/usr/local/Cellar/opencv@3/3.4.12_3/include/opencv

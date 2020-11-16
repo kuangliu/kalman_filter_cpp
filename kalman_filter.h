@@ -12,7 +12,7 @@ class LinearKalmanFilter {
                      const cv::Mat& P,
                      const cv::Mat& Q,
                      const cv::Mat& R,
-                     const cv::Mat x)
+                     const cv::Mat& x)
       : A_(A), B_(B), C_(C), P_(P), Q_(Q), R_(R), x_(x) {}
 
   cv::Mat Step(const cv::Mat& u, const cv::Mat& y) {
